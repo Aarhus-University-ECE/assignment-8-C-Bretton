@@ -1,0 +1,11 @@
+
+1) 
+The amount of arithmetic operations required for the function fact(int n)
+is easily calculated by counting how many arithmetic operations there are in 
+the for-loop, there is one for the i = i + 1, and one for  f = i * f. so for 
+every loop it has 2 arithmetic operations. As the loop runs n times as i <= n
+a function can be made to calculate the number of operations used for fact(n)
+which is n*2
+a) is then 5*2 = 10 arithmetic operations
+b) is then n*2 arithmetic operations for any positive integer n
+

@@ -19,7 +19,7 @@ node_t *createNode(int value);
 linked_list *createLinkedList();
 void insertFront(node_t *nodePtr, linked_list *llPtr);
 node_t *swap(node_t *x, node_t *y);
-bool isempty();
+bool isempty(linked_list *llPtr);
 void printLL(linked_list *llPtr);
 
 #endif // __LINKED_LIST_H_

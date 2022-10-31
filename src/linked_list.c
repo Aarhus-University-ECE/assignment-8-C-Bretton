@@ -2,7 +2,7 @@
 
 node_t *createNode(int value)
 {
-  node_t *nodePtr = malloc(sizeof(node_t));
+  node_t *nodePtr = (node_t*)malloc(sizeof(node_t));
   nodePtr->data = value;
   nodePtr->next = NULL;
   return nodePtr;
@@ -10,7 +10,7 @@ node_t *createNode(int value)
 
 linked_list *createLinkedList()
 {
-  linked_list *llPtr = malloc(sizeof(linked_list));
+  linked_list *llPtr = (linked_list*)malloc(sizeof(linked_list));
   llPtr->head = NULL;
   return llPtr;
 }
